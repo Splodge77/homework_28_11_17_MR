@@ -18,4 +18,8 @@ class TestBears < MiniTest::Test
     assert_equal("Fozzy", @bear.name)
   end
 
+  def fish_eaten
+    assert_equal(1, @bear.stomach_count())
+  end
+  
 end
