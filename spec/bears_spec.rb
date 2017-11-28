@@ -18,5 +18,4 @@ class TestBears < MiniTest::Test
     assert_equal("Fozzy", @bear.name)
   end
 
-
 end

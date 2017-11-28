@@ -1,6 +1,6 @@
 class Bears
 
-  attr_reader :name, :somach
+  attr_reader :name, :stomach
 
   def initialize(name)
     @name = name
