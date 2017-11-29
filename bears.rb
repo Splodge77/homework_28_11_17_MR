@@ -11,8 +11,8 @@ class Bears
     return @stomach.length
   end
 
-  def eat_fish(fish)
-    fish = @river.remove_fish()
+  def eat_fish(river)
+    @river.remove_fish(fish)
     @stomach.push(fish)
   end
 
